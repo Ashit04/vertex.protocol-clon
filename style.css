@@ -1,0 +1,272 @@
+body {
+  background-color: rgb(10,10,10);
+ }
+#headbar{
+    height: 80px;
+    width: 1300px;
+    background-color: rgb(10,10,10);
+    margin-left: 100px;
+    margin-top: 0px;
+    border: 1px solid rgb(15,15,15);
+    border-radius: 5px;  
+    box-shadow: 0px 0px 0px rgb(26, 26, 26);
+    position: fixed;
+    z-index: 1;
+ }
+ 
+.logo {
+    height: 40px;
+    width: 40px;
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-image: url(Dw_u3ePp_400x400.jpg);
+    background-size: cover;
+    border-radius: 10%;
+    box-shadow: 0px 2px 4px rgb(26, 26, 26);
+}
+.logo:hover{
+    box-shadow: 0px 2px 6px rgb(244, 253, 109);
+    transform: scale(1.1);
+}
+
+#name {
+    color: antiquewhite;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(10,10,10);
+    margin-left: 100px;
+    margin-top: -42px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#name:hover{
+    text-shadow: 0px 0px 2px white
+}
+#trade {
+    color: beige;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    height: 40px;
+    width: 100px;
+    margin-left: 350px ;
+    margin-top: -30px;
+    box-shadow: 0px 2px 4px rgb(26, 26, 26);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+
+}   
+#trade:hover{
+    box-shadow: 0px 2px 4px red;
+    transform: scale(1.1);
+    color: red;
+
+}
+#stake {
+    color: beige;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    height: 40px;
+    width: 100px;
+    margin-left: 460px ;
+    margin-top: -40px; 
+    box-shadow: 0px 2px 4px rgb(26, 26, 26);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+#stake:hover{
+    box-shadow: 0px 2px 4px rgb(255, 200, 0);
+    transform: scale(1.1);
+    color: rgb(255, 200, 0);
+}
+#swap {
+    color: beige;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    height: 40px;
+    width: 100px;
+    margin-left: 570px ;
+    margin-top: -40px; 
+    box-shadow: 0px 2px 4px rgb(26, 26, 26);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#swap:hover{
+    box-shadow: 0px 2px 4px rgb(0, 255, 13);
+    transform: scale(1.1);
+    color: rgb(0, 255, 13);
+}
+#compare {
+    color: beige;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    height: 40px;
+    width: 100px;
+    margin-left: 680px ;
+    margin-top: -40px;
+    box-shadow: 0px 2px 4px rgb(26, 26, 26);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+#compare:hover{
+    box-shadow: 0px 2px 4px rgb(55, 0, 255);
+    transform: scale(1.1);
+    color: rgb(55, 0, 255);
+}
+#tools {
+    color: beige;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    height: 40px;
+    width: 100px;
+    margin-left: 790px ;
+    margin-top: -40px;
+    box-shadow: 0px 2px 4px rgb(26, 26, 26);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+#tools:hover{
+    box-shadow: 0px 2px 4px rgb(255, 0, 208);
+    transform: scale(1.1);
+    color: rgb(255, 0, 208);
+}
+#launchapp {
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Verdana;
+    background-color: rgb(15,15,15);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    margin-left: 1050px ;
+    margin-top: -57px;
+    border-radius: 10px;
+    border: 1px solid rgb(26, 26, 26); 
+    box-shadow: 0px 4px 6px 2px rgb(26, 26, 26);
+} 
+#launchapp:hover{
+    box-shadow: 0px 4px 5px 2px red;
+    transform: scale(1.03);
+    text-shadow: 0px 0px 5px red;
+    color: red;
+}
+h1 {
+    color: #ffffff;
+    margin-left: 460px;
+    margin-top: 70px;
+    font-size: 60px;
+}
+#message{
+    color: rgba(255,255,255,.6);
+    height: 10px;
+    width: 500px;
+    margin-left: 470px;
+    margin-top: -30px;
+}
+#message2 {
+    height: 10px;
+    width: 300px;
+    color: rgba(255,255,255,.6);
+    margin-left: 590px;
+    margin-top: -5px;
+}
+#av{
+    color: aliceblue;
+    background-color:rgb(30,30,30);
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    margin-top: px;
+    margin-left: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid rgb(50,50,50);
+}
+#av:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 2px purple;
+    text-shadow: 0px 0px 30px purple;
+}
+#powereby {  
+    color: aliceblue;
+    background-color:rgb(30,30,30);
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    margin-top: px;
+    margin-left: 720px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid rgb(50,50,50);
+}
+#powereby:hover {
+    transform: scale(1.05);
+    text-shadow: 0px 0px 30px purple;
+    box-shadow: 0px 0px 2px purple;
+    
+
+}
+#api {
+    color: aliceblue;
+    background-color:rgb(8, 8, 8);
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    margin-top:50px;
+    margin-left: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid rgb(50,50,50);
+    box-shadow: 1px -1px 2px;
+
+}
+#api:hover {
+    transform: scale(1.05);
+    text-shadow: 0px 0px 50px purple;
+    box-shadow: 1px -1px 8px purple;
+}
+#logo2 {
+    background-image: url(Dw_u3ePp_400x400-removebg-preview.png);
+    height: 400px;
+    width: 400px;
+    margin-left: 490px;
+    background-size: cover;
+
+}
+#not {
+    color: #ffffff;
+    margin-top: 300px;
+}
+#none {
+    height: 130px;
+}
